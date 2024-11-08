@@ -1,0 +1,30 @@
+{
+    "name": "wpint/inertia",
+    "description": "The WPINT inertia package.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WPINT\\Inertia\\": ""
+        }
+    },
+    "require": {
+        "inertiajs/inertia-laravel": "^0.2.5",
+        "wpint/support": "@dev"
+    },
+    "authors": [
+        {
+            "name": "Ali Barzegar",
+            "email": "ali.barzegar.rahimi@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+
+}
